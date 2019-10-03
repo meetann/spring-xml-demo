@@ -11,6 +11,12 @@
         <!--        </constructor-arg>-->
     </bean>
 
+    <bean name="movie1" class="com.stackroute.domain.Movie" autowire="byType">
+        <!--        <constructor-arg>-->
+        <!--            <ref bean="actor3"/>-->
+        <!--        </constructor-arg>-->
+    </bean>
+
     <bean id="actor" class="com.stackroute.domain.Actor">
         <constructor-arg index="0" name="name" value="Robert Downey Jr" type="java.lang.String"/>
         <constructor-arg index="1" name="gender" value="Male" type="java.lang.String"/>
