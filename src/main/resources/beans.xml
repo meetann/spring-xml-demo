@@ -2,7 +2,9 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-           http://www.springframework.org/schema/beans/spring-beans.xsd">
+           http://www.springframework.org/schema/beans/spring-beans.xsd"
+            default-init-method="customInit"
+            default-destroy-method="customDestroy">
 
 
     <bean name="movie" class="com.stackroute.domain.Movie" autowire="byName">
@@ -34,6 +36,8 @@
         <constructor-arg name="gender" value="Male" />
         <constructor-arg name="age" value="36" />
     </bean>
+
+    <bean id="beanLifeCycle" class="com.stackroute.demo.BeanLifecycleDemoBean"/>
 
 <!--    <bean id="movie" class="com.stackroute.domain.Movie" scope="prototype" >-->
 <!--        <constructor-arg>-->
