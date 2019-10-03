@@ -11,10 +11,10 @@
         <!--        </constructor-arg>-->
     </bean>
 
-    <bean name="movie1" class="com.stackroute.domain.Movie" autowire="byType">
-        <!--        <constructor-arg>-->
-        <!--            <ref bean="actor3"/>-->
-        <!--        </constructor-arg>-->
+    <bean name="movie1" class="com.stackroute.domain.Movie">
+                <constructor-arg>
+                    <ref bean="actor3"/>
+                </constructor-arg>
     </bean>
 
     <bean id="actor" class="com.stackroute.domain.Actor">

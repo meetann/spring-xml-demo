@@ -34,6 +34,8 @@ public class App
         Movie movieBean = context.getBean("movie",Movie.class);
         movieBean.getActor().displayDetails();
 
+        Movie movieBean1 = context.getBean("movie1",Movie.class);
+        movieBean1.getActor().displayDetails();
 
 //        Movie movieBean2 = context.getBean("movie",Movie.class);
 //        movieBean2.getActor().displayDetails();
