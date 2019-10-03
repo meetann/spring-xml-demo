@@ -16,6 +16,7 @@ public class App
 
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         System.out.println("beans loaded");
+
 //        System.out.println("Comparison using prototype scope!");
 //        Movie bean1 = context.getBean("movie",Movie.class);
 //        bean1.getActor().displayDetails();
