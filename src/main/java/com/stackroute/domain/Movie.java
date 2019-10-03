@@ -8,6 +8,10 @@ public class Movie {
         this.actor = actor;
     }
 
+    public Movie(){
+
+    }
+
     public void setActor(Actor actor) {
         this.actor = actor;
     }

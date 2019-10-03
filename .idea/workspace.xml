@@ -4,6 +4,9 @@
     <list default="true" id="0db24f42-3138-4c57-9de0-33b209facd4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/App.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="demo" />
+        <entry key="$PROJECT_DIR$" value="constructor-injection" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570077235118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="trying demo branch">
+      <created>1570077546292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570077546292</updated>
+    </task>
+    <task id="LOCAL-00005" summary="restored. demo deleted.">
+      <created>1570077713459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570077713459</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +148,8 @@
     <MESSAGE value="Constructor injection, prototype scope, comparison of beans" />
     <MESSAGE value="Constructor injection, prototype scope, comparison of beans. second commit" />
     <MESSAGE value="Constructor injection, prototype scope, comparison of beans. third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructor injection, prototype scope, comparison of beans. third commit" />
+    <MESSAGE value="trying demo branch" />
+    <MESSAGE value="restored. demo deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="restored. demo deleted." />
   </component>
 </project>
