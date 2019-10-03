@@ -36,6 +36,8 @@ public class App
         movieBean2.getActor().displayDetails();
         System.out.println(movieBean1==movieBean2);
 
+        System.out.println("DEMO BRANCH");
+
 
 
     }
